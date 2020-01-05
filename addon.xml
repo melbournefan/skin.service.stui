@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="skin.stui" version="0.01 name="stui" provider-name="matthe3">
+	<requires>
+		<import addon="xbmc.gui" version="5.14.0"/>
+	</requires>
+	<extension point="xbmc.gui.skin" debugging="false">
+		<res width="1920" height="1440" aspect="4:3" default="false" folder="xml" />
+		<res width="1920" height="1080" aspect="16:9" default="true" folder="xml" />
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en_GB">'stui' the simple Kodi skin</summary>
+		<description lang="en_GB">'stui' is the simple Kodi skin designed for live television</description>
+		<disclaimer lang="en_GB">This skin is currently in beta, if you have any issues, submit a bug report on this repository</disclaimer>
+		<platform>all</platform>
+		<license>GPL-3.0</license>
+		<forum>http://forum.kodi.tv/</forum>
+		<source>https://github.com/melbournefan/skin.service.stui</source>
+		<assets>
+		</assets>
+	</extension>
+</addon>
